@@ -2,26 +2,45 @@
 layout: default
 title: Home
 ---
-
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-    I am a final-year Ph.D. student in the Department of Computer and Information Science at Temple University, focusing on Natural Language Processing and Computer Vision. My research combines large-scale dataset development, entity recognition, and knowledge graph construction. I aim to bridge the gap between academic innovation and practical AI applications.
+    I am a final-year Ph.D. student in the Department of <a href="https://www.ece.utexas.edu/" target="_blank">Electrical and Computer Engineering</a> at UT Austin, advised by Prof. <a href="https://users.ece.utexas.edu/~hvikalo/" target="_blank">Haris Vikalo</a>. I am also a member of the <a href="https://wncg.org/" target="_blank">WNCG lab</a> (<b>W</b>ireless <b>N</b>etworking and <b>C</b>ommunications <b>G</b>roup). Before joining UT Austin, I obtained my B.Eng degree from the department of Electrical Engineering and Automation,  <a href="https://www.scut.edu.cn/en/" target="_blank">South China University of Technology</a>.
   </p>
+
   <p>
-    <font color="#FF0000">I am seeking industry opportunities starting in 2025. Please feel free to reach out for collaboration or positions!</font>
+   <font color="#FF0000"> I am seeking for industry opportunity starting from 2025 or early 2026. Please feel free to reach out if you have suitable position. </font> 
   </p>
+	
 </div>
 
-<!-- ========== RESEARCH INTERESTS ========== -->
 <div class="docs-section" id="research">  
   <h4>Research Interests</h4>
-  My research focuses on creating innovative tools and methods in:<br>
-  <b>1)</b> Entity recognition and relation extraction in scientific texts.<br>
-  <b>2)</b> Large-scale dataset development for specialized domains such as climate science.<br>
-  <b>3)</b> Multimodal model evaluation with a focus on Vision-Language models.<br>
-  <b>4)</b> Knowledge graph construction and integration using LLM techniques.<br>
+  <p>Research Statement in <a href={{ "/assets/cv/research.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <p>
+  My research concentrates on developing <b>Scalable, Trustworthy, Efficient</b> learning system and their applications on <b>Vision Foundation Models</b>.<br>
+  Specifically, I am interested in: <br> 
+<b>1)</b> federated learning with data-heterogeneous and resource-heterogeneous clients; <br>
+<b>2)</b> model compression (pruning, quantization, distillation) in federated learning; <br>
+<b>3)</b> differential privacy and adversarial robustness in federated learning. <br>
+<b>4)</b> improving fine-tuning strategies to continuously adapt large foundation models to downstream tasks using forgetting-resilient low-rank adaptation (LoRA). <br>
+<b>5)</b> enhancing spatial accuracy and fidelity of content control for generative models. <br>
+  </p> 
+</div>
+
+<div class="docs-section" id="news">  
+  <h4>News</h4>
+  <p>
+    <b> September, 2024 </b>   One paper accepted in NeurIPS2024. See you in Vancouver! <br>
+    <b> May, 2024 </b>   One paper accepted in ICML2024. <br>
+    <b> February, 2024 </b>   One paper accepted in CVPR2024. <br>
+    <b> February, 2024 </b>   Joining PPML team in <a href="https://ai.sony/" target="_blank">SonyAI</a> as research intern. <br>
+    <b> January, 2024 </b>   Invited as ICML2024, IJCAI2024 reviewers. <br>
+    <b> November, 2023 </b>   One paper about mixed-precision quantization preprinted in arXiv. <br>
+    <b> September, 2023 </b>   One paper about client selection preprinted in arXiv. <br>
+    <b> March, 2023 </b>   One paper accepted in CVPR2023 workshop. <br>
+    <b> Jan, 2023 </b>     One paper accepted in ICLR2023.
   </p> 
 </div>
 
@@ -114,86 +133,13 @@ title: Home
   </div>
 </div>
 
-<!-- ========== PROJECTS ========== 
-<div class="docs-section" id="projects">
-  <h4>Projects</h4>
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-
-</div>
--->
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
 
-  <p>Full Resume in <a href={{ "/assets/cv/HuitongPan_Resume-1pg.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <p>Full Resume in <a href={{ "/assets/cv/cv.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
 
   <!-- The Timeline -->
   <ul class="timeline">
@@ -215,11 +161,45 @@ title: Home
   </ul>
 </div>
 
+
+<div class="docs-section" id="teaching">
+  <h4>Teaching</h4>
+  <p>
+    TA for CS395T, 2020 Fall: Foundation of Predictive Machine Learning <br>
+    TA for EE381K, 2021 Spring: Statistical Machine Learning <br>
+    TA for EE422C, 2021 Summer: Software Design and Implementation II (Java) <br>
+    TA for EE380L: 2021 Fall: Data Mining <br>
+    TA for CS395T, 2022 Spring: Convex Optimization <br>
+    TA for EE351M, 2022 Fall: Digital Signal Processing <br>
+  </p>
+
+</div>
+
+<div class="docs-section" id="service">
+  <h4>Service</h4>
+  <p>
+    conference reviewer: ICML(22,23,24), NeurIPS(22,23,24), ICLR(24,25), IJCAI(24,25), AAAI(25), CVPR(25). <br>
+    journal reviwer: IEEE TMC
+  </p>
+
+</div>
+
+<div class="docs-section" id="skill">
+  <h4>Skills</h4>
+  <p>
+    <b>Programming Languages</b>: Python, Java, C/C++, SQL, LaTeX <br>
+    <b>Softwares</b>: Pytorch, Tensorflow, Linux, AWS, Google Cloud, Matlab, Git
+  </p>
+
+</div>
+
+<div class="docs-section" id="aboutme">
+    <h4>About Me</h4>
+    Outside research, I like listening to progressive rock. The most beautiful lyric I have ever heard: <b>We just two lost souls swimming in a fishbowl, year after year.</b> I am trying to find out who I am, driven by the same old fear and curiosity. 
+</div>
+
 <div class="docs-section" id="template">
     <h4>Acknowledgement</h4>
     This website was built based on a template by <a href="https://web.stanford.edu/~msaveski/" target="_blank">Martin Saveski</a>.
     Thanks for the author's contribution.
 </div>
-  If you end up using it, please link to here and drop me an email.
-  I'm always happy to see people using it.
-</div>  
