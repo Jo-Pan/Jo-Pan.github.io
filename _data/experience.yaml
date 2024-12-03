@@ -1,61 +1,66 @@
 experiences:
 
-- place: "University of Washington"
-  time: "2023 - now"
-  title: "Assistant Professor"
-  subtitle: "Information School"
+- place: "Temple University"
+  time: "08/2019 - Present"
+  title: "Research Assistant and Teaching Assistant"
+  subtitle: "Department of Computer Science"
+  description: >
+    - Taught lab sessions and graded coursework for Java and SQL courses.
+    - Conducted research on natural language processing and computer vision, developing tools like DMDD and SciDMT datasets.
+    - Developed a climate science knowledge graph using Neo4j and LLM-based techniques.
   category: "work"
 
-- place: "Stanford"
-  time: "2020 - 2023"
-  title: "Postdoc"
-  subtitle: "MS&E"
+- place: "Bosch"
+  time: "06/2021 - 08/2021"
+  title: "Computer Vision Intern"
+  subtitle: "Security Camera Team"
+  description: >
+    - Built and optimized deep learning models (e.g., MobileNet, YOLOv5) for object detection.
+    - Optimized TensorFlow Lite models for real-time applications on devices.
+    - Collaborated with cross-functional teams in Agile settings for production deployment.
   category: "work"
 
-- place: "MIT"
-  time: "2014 - 2020"
+- place: "Springbok Analytics"
+  time: "06/2020 - 08/2020"
+  title: "Research Scientist Intern"
+  subtitle: "Medical Imaging Projects"
+  description: >
+    - Fine-tuned EfficientNet and U-Net models for biopsy tissue segmentation and cancer classification.
+    - Improved accuracy to 94% through advanced medical imaging protocols and post-processing.
+  category: "work"
+
+- place: "Springbok Analytics"
+  time: "07/2018 - 07/2019"
+  title: "Data Scientist"
+  subtitle: "Medical Image Analysis"
+  description: >
+    - Led development of 3D MRI segmentation models for medical image analysis.
+    - Prepared clinical patient records and implemented neural network models in TensorFlow.
+    - Transformed trained models into C++ applications for scanning machine integration.
+  category: "work"
+
+- place: "Temple University"
+  time: "2019 - Present"
   title: "Ph.D. Student"
-  subtitle: "Media Lab, Laboratory for Social Machines"
+  subtitle: "Focus: Natural Language Processing and Computer Vision"
+  description: >
+    - GPA: 3.95/4.00
+    - Conducted research in NLP and CV, focusing on large-scale datasets and multimodal models.
   category: "school"
 
-- place: "Facebook"
-  time: "Summer 2019"
-  title: "Research Scientist, Intern"
-  subtitle: "Core Data Science"
-  category: "work"
-
-- place: "LinkedIn"
-  time: "Summer 2016"
-  title: "Research Scientist, Intern"
-  subtitle: "Experimentation Group"
-  category: "work"
-
-- place: "Amazon"
-  time: "Summer 2014"
-  title: "Machine Learning Scientist, Intern"
-  subtitle: "Scalable Machine Learning Group"
-  category: "work"
-
-- place: "Yahoo! Labs"
-  time: "Feb-Aug 2013"
-  title: "Research Scientist, Intern"
-  subtitle: "Social Media Engagement Group"
-  category: "work"
-
-- place: "EM-DMKM"
-  time: "Sep 2011 – Aug 2013"
-  title: "M.Sc. Student"
-  subtitle: "Masters in Data Mining and Knowledge Management <br/> Year 1: University Pierre et Marie Curie <br/> Year 2: Universitat Politecnica de Catalunya <br/>"
+- place: "University of Virginia"
+  time: "2017 - 2018"
+  title: "M.S. in Data Science"
+  subtitle: "Graduate School of Arts & Sciences"
+  description: >
+    - GPA: 3.84/4.00
+    - Focused on machine learning, statistical analysis, and data engineering.
   category: "school"
 
-- place: "Jozef Stefan Institute"
-  time: "Jan-Aug 2011"
-  title: "Research Assistant"
-  subtitle: "Department of Knowledge Technologies"
-  category: "work"
-
-- place: "Staffordshire University"
-  time: "2007 - 2010"
-  title: "B.Sc. Student"
-  subtitle: "Computing Science <br/> First Class Honours"
+- place: "University of Virginia"
+  time: "2015 - 2017"
+  title: "B.S. in Finance and Business Analytics"
+  subtitle: "McIntire School of Commerce"
+  description: >
+    - Specialized in business analytics and financial modeling.
   category: "school"
