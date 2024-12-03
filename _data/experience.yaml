@@ -10,6 +10,15 @@ experiences:
     - Developed a climate science knowledge graph using Neo4j and LLM-based techniques.
   category: "work"
 
+- place: "Temple University"
+  time: "2019 - Present"
+  title: "Ph.D. Student"
+  subtitle: "Focus: Natural Language Processing and Computer Vision"
+  description: >
+    - GPA: 3.95/4.00
+    - Conducted research in NLP and CV, focusing on large-scale datasets and multimodal models.
+  category: "school"
+
 - place: "Bosch"
   time: "06/2021 - 08/2021"
   title: "Computer Vision Intern"
@@ -38,15 +47,6 @@ experiences:
     - Prepared clinical patient records and implemented neural network models in TensorFlow.
     - Transformed trained models into C++ applications for scanning machine integration.
   category: "work"
-
-- place: "Temple University"
-  time: "2019 - Present"
-  title: "Ph.D. Student"
-  subtitle: "Focus: Natural Language Processing and Computer Vision"
-  description: >
-    - GPA: 3.95/4.00
-    - Conducted research in NLP and CV, focusing on large-scale datasets and multimodal models.
-  category: "school"
 
 - place: "University of Virginia"
   time: "2017 - 2018"

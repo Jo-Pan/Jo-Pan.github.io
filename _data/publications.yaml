@@ -7,6 +7,7 @@ papers:
   - title: "SciER: An Entity and Relation Extraction Dataset for Datasets, Methods, and Tasks in Scientific Documents"
     authors: "Zhang, Qi, et al."
     venue: "Empirical Methods in Natural Language Processing (EMNLP), 2024"
+    paper_pdf: "https://aclanthology.org/2024.emnlp-main.726.pdf"
     selected: y
 
   - title: "FlowLearn: Evaluating Large Vision-Language Models on Flowchart Understanding"
